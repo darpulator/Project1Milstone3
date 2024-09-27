@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mycss_1.css">
+    <link rel="stylesheet" href="mycss_2.css">
+    <style>
+        body {
+            background-color: cadetblue;
+
+        }
+
+        section {
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        #profile-picture {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 2px solid cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="text-center">
+            <h1>Paul Hong</h1>
+            <p>Major: Computer Science</p>
+            <img src="recent/paulhong.jpg" alt="Profile Picture of Paul Hong" id="profile-picture">
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                <li class="nav-item"><a class="nav-link" href="#favorites">Favorites</a></li>
+                <li class="nav-item"><a class="nav-link" href="#favorites-websites">Favorite Websites</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">My Projects</a></li>
+            </ul>
+        </nav>
+
+        <div class="row">
+            <div class="col-md-6">
+                <section id="education">
+                    <h2>Education</h2>
+                    <p>St. John's University, Queens, NY</p>
+                    <ul>
+                        <li>High School Diploma May 2022</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="col-md-6">
+                <section id="experience">
+                    <h2>Work Experience/Internships</h2>
+                    <ul>
+                        <li><strong>Tutor</strong> - High school Math tutor</li>
+                        <li>- Korean language tutor at St. John's University</li>
+                        <li><strong>Biotechnology Internship</strong>
+                            <ul>
+                                <li>Created a 3D dimension object using CAD</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <section id="skills">
+                    <h2>Programming Skills</h2>
+                    <ul>
+                        <li><strong>Java</strong> - Intermediate</li>
+                        <li><strong>HTML/CSS</strong> - Beginner</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="col-md-6">
+                <section id="interests">
+                    <h2>Interests/Hobbies</h2>
+                    <p>Rock climbing, hiking, playing guitar.</p>
+                </section>
+            </div>
+        </div>
+
+        <section id="favorites" class="mb-4">
+            <h2>Favorite Song, Film, and TV Show</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Favorite Song</h3>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/GdvcG4loM2M" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="alert alert-info" role="alert">
+                <strong>Favorite Film:</strong> I don't have a favorite film, but I love watching educational history videos.
+            </div>
+            <div>
+                <h3>Favorite TV Show</h3>
+                <p>N/A</p>
+            </div>
+        </section>
+
+        <section id="favorites-websites">
+            <h2>Favorite Websites</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</a> - Everybody loves YouTube.</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="text-center">
+            <h2>My Projects in This Course</h2>
+            <p>TBA</p>
+            <button class="btn btn-primary" onclick="alert('More projects coming soon!')">View Projects</button>
+        </section>
+    </div>
+</body>
+
+</html>
